@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4598807667338481855}
   - component: {fileID: 5747308970730427456}
   - component: {fileID: 4632010744648883685}
+  - component: {fileID: 5434294651406775426}
   m_Layer: 0
   m_Name: StackableStone
   m_TagString: Untagged
@@ -256,3 +257,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.99999994, y: 0.7, z: 0.99999994}
   m_Center: {x: 0, y: 0, z: 0.00000011920929}
+--- !u!114 &5434294651406775426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964753974609744363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bab1c0757e0e54e8fdc55f3a88a63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stabilityThreshold: 0.05
+  settleTime: 1.5
+  stoneSounds:
+  - {fileID: 8300000, guid: 64803683b25deab4194920a54812c4b0, type: 3}
+  normalMaterial: {fileID: -2636793336039168742, guid: 845a9ac42e81b8348a8169c48a986363, type: 3}
+  glowMaterial: {fileID: 2100000, guid: 9162f2b6810936246a02cd322994fa6e, type: 2}
